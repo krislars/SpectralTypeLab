@@ -4,4 +4,4 @@ An extremely old-school lab, almost exactly the 1990's CLEA Classification of St
 
 To host to students:
 
-https://krislars.github.io/SpectralTypeLab/speclab.html
+<https://krislars.github.io/SpectralTypeLab/speclab.html>
