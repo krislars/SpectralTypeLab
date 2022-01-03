@@ -1,0 +1,163 @@
+<HTML>
+
+<HEAD>
+
+
+<TITLE>Spectral Type</TITLE>
+
+</HEAD>
+
+<BODY>
+
+<H1>Spectral Type Lab</H1>
+
+References:  CLEA Classification of Stellar Spectra Lab using data from Jacoby et al. (1984)
+
+
+
+<TABLE>
+<TR>
+<TD>
+<IMG name="prog" src='spectraltype_program_files/image001.gif' >
+</TD>
+<TD>
+<FORM><H3>Program Star</H3>
+
+<select name="selprog">
+<option value="choose">Choose Program Star</option>
+<option value="1">Altair</option>
+<option value="2">Aldebaran</option>
+<option value="3">Achernar</option>
+<option value="4">alpha Cen</option>
+<option value="5">O 1015</option>
+<option value="6">HD 24189</option>
+<option value="7">HD 107399</option>
+<option value="8">HD 240344</option>
+<option value="9">HD 17647</option>
+<option value="10">BD+63 137</option>
+<option value="11">HD 66171</option>
+<option value="12">HZ 948</option>
+<option value="13">HD 35215</option>
+<option value="14">Feige 40</option>
+<option value="15">Feige 41</option>
+<option value="16">HD 6111</option>
+<option value="17">HD 23863</option>
+<option value="18">HD 221741</option>
+<option value="19">HD 242936</option>
+<option value="20">HD 5351</option>
+<option value="21">SAO 81292</option>
+<option value="22">HD 27685</option>
+<option value="23">HD 21619</option>
+<option value="24">HD 23511</option>
+<option value="25">HD 158659</option>
+</select> <br>
+<input type="button" name="button1" value="Get Spectrum" onclick="
+	if (this.form.selprog.value == '1'){ (document.images.prog.src = 'spectraltype_program_files/image015.gif' ); 
+	} else if (this.form.selprog.value == '2') { (document.images.prog.src = 'spectraltype_program_files/image020.gif' );
+	} else if (this.form.selprog.value == '3') { (document.images.prog.src = 'spectraltype_program_files/image003.gif' );
+	} else if (this.form.selprog.value == '4') { (document.images.prog.src = 'spectraltype_program_files/image011.gif' );
+	} else if (this.form.selprog.value == '5') { (document.images.prog.src = 'spectraltype_program_files/image005.gif' );
+	} else if (this.form.selprog.value == '6') { (document.images.prog.src = 'spectraltype_program_files/image006.gif' );
+	} else if (this.form.selprog.value == '7') { (document.images.prog.src = 'spectraltype_program_files/image007.gif' );
+	} else if (this.form.selprog.value == '8') { (document.images.prog.src = 'spectraltype_program_files/image008.gif' );
+	} else if (this.form.selprog.value == '9') { (document.images.prog.src = 'spectraltype_program_files/image009.gif' );
+	} else if (this.form.selprog.value == '10') { (document.images.prog.src = 'spectraltype_program_files/image010.gif' );
+	} else if (this.form.selprog.value == '11') { (document.images.prog.src = 'spectraltype_program_files/image011.gif' );
+	} else if (this.form.selprog.value == '12') { (document.images.prog.src = 'spectraltype_program_files/image012.gif' );
+	} else if (this.form.selprog.value == '13') { (document.images.prog.src = 'spectraltype_program_files/image013.gif' );
+	} else if (this.form.selprog.value == '14') { (document.images.prog.src = 'spectraltype_program_files/image014.gif' );
+	} else if (this.form.selprog.value == '15') { (document.images.prog.src = 'spectraltype_program_files/image015.gif' );
+	} else if (this.form.selprog.value == '16') { (document.images.prog.src = 'spectraltype_program_files/image016.gif' );
+	} else if (this.form.selprog.value == '17') { (document.images.prog.src = 'spectraltype_program_files/image017.gif' );
+	} else if (this.form.selprog.value == '18') { (document.images.prog.src = 'spectraltype_program_files/image018.gif' );
+	} else if (this.form.selprog.value == '19') { (document.images.prog.src = 'spectraltype_program_files/image019.gif' );
+	} else if (this.form.selprog.value == '20') { (document.images.prog.src = 'spectraltype_program_files/image020.gif' );
+	} else if (this.form.selprog.value == '21') { (document.images.prog.src = 'spectraltype_program_files/image021.gif' );
+	} else if (this.form.selprog.value == '22') { (document.images.prog.src = 'spectraltype_program_files/image022.gif' );
+	} else if (this.form.selprog.value == '23') { (document.images.prog.src = 'spectraltype_program_files/image023.gif' );
+	} else if (this.form.selprog.value == '24') { (document.images.prog.src = 'spectraltype_program_files/image024.gif' );
+	} else if (this.form.selprog.value == '25') { (document.images.prog.src = 'spectraltype_program_files/image025.gif' );}">
+
+</FORM>
+</TD>
+</TR>
+
+
+<TR>
+<TD>
+<IMG name="line" src='spectraltype_lines_files/image001.gif' >
+</TD>
+
+<TD>
+<H3>Spectral Line</H3>
+<FORM>
+<SELECT name="chooseline" onchange="document.images.line.src = this.form.chooseline.value" size=5>
+<OPTION value="spectraltype_lines_files/image001.gif">3933.682 Ca II (K line)</OPTION>
+<OPTION value="spectraltype_lines_files/image002.gif">3964.729 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image003.gif">3968.492 Ca II (H line)</OPTION>
+<OPTION value="spectraltype_lines_files/image004.gif">3970.072 H I (H Epsilon)</OPTION>
+<OPTION value="spectraltype_lines_files/image005.gif">4026.191 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image006.gif">4030.76 Mn I</OPTION>
+<OPTION value="spectraltype_lines_files/image007.gif">4045.825 Fe I</OPTION>
+<OPTION value="spectraltype_lines_files/image008.gif">4068 C III</OPTION>
+<OPTION value="spectraltype_lines_files/image009.gif">4073 O II</OPTION>
+<OPTION value="spectraltype_lines_files/image010.gif">4088.85 Si IV</OPTION>
+<OPTION value="spectraltype_lines_files/image011.gif">4097.33 N III</OPTION>
+<OPTION value="spectraltype_lines_files/image012.gif">4100.04 He II</OPTION>
+<OPTION value="spectraltype_lines_files/image013.gif">4101.748 H I (H Delta)</OPTION>
+<OPTION value="spectraltype_lines_files/image014.gif">4120.82 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image015.gif">4130.89 Si II</OPTION>
+<OPTION value="spectraltype_lines_files/image016.gif">4143.76 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image017.gif">4143.878 Fe I</OPTION>
+<OPTION value="spectraltype_lines_files/image018.gif">4226.740 Ca I</OPTION>
+<OPTION value="spectraltype_lines_files/image019.gif">4300 CH & Metals (G Band)</OPTION>
+<OPTION value="spectraltype_lines_files/image020.gif">4317.14 O II</OPTION>
+<OPTION value="spectraltype_lines_files/image021.gif">4340.475 H I (H Gamma)</OPTION>
+<OPTION value="spectraltype_lines_files/image022.gif">4383.557 Fe I</OPTION>
+<OPTION value="spectraltype_lines_files/image023.gif">4387.929 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image024.gif">4471.479 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image024.gif">4471.68 He I</OPTION>
+<OPTION value="spectraltype_lines_files/image025.gif">4481.2 Mg II</OPTION>
+
+</SELECT>
+</FORM>
+
+</TD>
+
+</TR>
+
+
+<TR>
+<TD>
+<IMG name="standspec" src='spectraltype_standard_files/image001.gif' >
+</TD>
+<TD>
+<FORM><H3>Standard Stars</H3>
+
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image001.gif' ">O5<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image002.gif' ">B0<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image003.gif' ">B6<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image004.gif' ">A1<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image005.gif' ">A5<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image006.gif' ">F0<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image007.gif' ">F5<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image008.gif' ">G0<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image009.gif' ">G6<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image010.gif' ">K0<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image011.gif' ">K5<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image012.gif' ">M0<BR>
+<INPUT TYPE="radio" name="standard" onclick="document.images.standspec.src = 'spectraltype_standard_files/image013.gif' ">M5
+</FORM>
+</TD>
+</TR>
+
+
+
+</TABLE>
+
+
+
+
+</BODY>
+</HTML>
+ 
