@@ -11,7 +11,7 @@
 
 <H1>Spectral Type Lab</H1>
 
-References:  CLEA Classification of Stellar Spectra Lab using data from Jacoby et al. (1984)
+CLEA Classification of Stellar Spectra Lab using data from Jacoby et al. (1984), remixed by Kristen Larson at Western Washington University
 
 
 
@@ -25,10 +25,13 @@ References:  CLEA Classification of Stellar Spectra Lab using data from Jacoby e
 
 <select name="selprog">
 <option value="choose">Choose Program Star</option>
-<option value="1">Altair</option>
-<option value="2">Aldebaran</option>
-<option value="3">Achernar</option>
-<option value="4">alpha Cen</option>
+<option value="31">Betelgeuse</option>
+<option value="32">Bellatrix</option>
+<option value="33">Tabit</option>
+<option value="1">HD 124320</option>
+<option value="2">HD 37767</option>
+<option value="3">HD 35619</option>
+<option value="4">HD 23733</option>
 <option value="5">O 1015</option>
 <option value="6">HD 24189</option>
 <option value="7">HD 107399</option>
@@ -52,10 +55,13 @@ References:  CLEA Classification of Stellar Spectra Lab using data from Jacoby e
 <option value="25">HD 158659</option>
 </select> <br>
 <input type="button" name="button1" value="Get Spectrum" onclick="
-	if (this.form.selprog.value == '1'){ (document.images.prog.src = 'spectraltype_program_files/image015.gif' ); 
-	} else if (this.form.selprog.value == '2') { (document.images.prog.src = 'spectraltype_program_files/image020.gif' );
+	if (this.form.selprog.value == '31'){ (document.images.prog.src = 'spectraltype_program_files/image010.gif' ); 
+	} else if (this.form.selprog.value == '32') { (document.images.prog.src = 'spectraltype_program_files/image002.gif' );
+	} else if (this.form.selprog.value == '33') { (document.images.prog.src = 'spectraltype_program_files/image006.gif' );
+	} else if (this.form.selprog.value == '1') { (document.images.prog.src = 'spectraltype_program_files/image001.gif' );
+	} else if (this.form.selprog.value == '2') { (document.images.prog.src = 'spectraltype_program_files/image002.gif' );
 	} else if (this.form.selprog.value == '3') { (document.images.prog.src = 'spectraltype_program_files/image003.gif' );
-	} else if (this.form.selprog.value == '4') { (document.images.prog.src = 'spectraltype_program_files/image011.gif' );
+	} else if (this.form.selprog.value == '4') { (document.images.prog.src = 'spectraltype_program_files/image004.gif' );
 	} else if (this.form.selprog.value == '5') { (document.images.prog.src = 'spectraltype_program_files/image005.gif' );
 	} else if (this.form.selprog.value == '6') { (document.images.prog.src = 'spectraltype_program_files/image006.gif' );
 	} else if (this.form.selprog.value == '7') { (document.images.prog.src = 'spectraltype_program_files/image007.gif' );
