@@ -1,7 +1,7 @@
 # SpectralTypeLab
-## ASTRO 101 student lab for estimating spectral type
 
-An extremely old-school lab, almost exactly the 1990's CLEA Classification of Stellar Spectra Lab converted to HTML.  Uses data from Jacoby et al. (1984).  
+
+An extremely old-school student lab, almost exactly the 1990's CLEA Classification of Stellar Spectra Lab converted to HTML.  Uses data from Jacoby et al. (1984).  
 
 I have copied three of the spectra with appropriate temperatures and renamed them Betelgeuse, Bellatrix, and Tabit so that students can use Aladin Lite to visually inspect the colors of the stars to knit what they are learning about spectral type here into what the already know about temperature and color.  Note that the spectra of these three stars are not real.  
 
